@@ -1,0 +1,42 @@
+import React from "react"
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Footer from './components/Footer'
+import Register from "./components/Register"
+import Login from "./components/Login"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter, Route, Routes} from "react-router-dom"
+
+
+
+
+const App = () => {
+
+ 
+  return (
+
+    <div className="container-fluid p-0">
+
+      <BrowserRouter>
+
+        <Navbar />
+
+        <Routes>
+
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />    
+          <Route path="/register" element={<Register />} />
+         
+        </Routes>
+
+        
+        <div className="mt-5">
+         <Footer />
+        </div>
+
+      </BrowserRouter>
+    </div>
+  )
+}
+
+export default App;
