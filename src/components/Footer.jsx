@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>© 2021 - Pizzería Mamma Mia! - Todos los derechos reservados</p>
+            <p>© 2024 - La Mia Pizza Restorante! - Todos los derechos reservados</p>
         </footer>
     )
 }

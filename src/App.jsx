@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Register from "./components/Register"
 import Login from "./components/Login"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 
 
@@ -20,6 +21,7 @@ const App = () => {
       <BrowserRouter>
 
         <Navbar />
+        {/* <Home /> */}
 
         <Routes>
 
