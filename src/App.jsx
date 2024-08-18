@@ -10,7 +10,6 @@ import {BrowserRouter, Route, Routes} from "react-router-dom"
 
 
 
-
 const App = () => {
 
  
@@ -21,8 +20,7 @@ const App = () => {
       <BrowserRouter>
 
         <Navbar />
-        {/* <Home /> */}
-
+    
         <Routes>
 
           <Route path="/" element={<Home />} />
