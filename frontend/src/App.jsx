@@ -4,10 +4,11 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Register from "./components/Register"
 import Login from "./components/Login"
+import {Pizza} from "./components/Pizza"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router-dom"
-import Pizza from "./components/Pizza"
+
 
 
 
@@ -22,18 +23,18 @@ const App = () => {
       <BrowserRouter>
 
         <Navbar />
-        <Home></Home>
+       
     
         <Routes>
 
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />    
           <Route path="/register" element={<Register />} />
 
          
         </Routes>
 
-        {/* <Pizza></Pizza> */}
+        <Pizza />
 
  
 

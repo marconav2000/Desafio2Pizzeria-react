@@ -5,7 +5,7 @@ import CardPizza from './CardPizza'
 
 
 export default function Home() {
-    //const [cart, setCart] = useState(pizzaCart || [])
+   
     const [pizzas, setPizzas] = useState([])
     const [error, setError] = useState(null)
     
