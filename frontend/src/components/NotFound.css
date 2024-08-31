@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f9fa;
+  }
+  h1.display-3 {
+    color: #ff6f61;
+    font-weight: bold;
+    font-size: 100px;
+  }
+
+h3.bajada {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+  button {
+    border-radius: 25px;
+    font-size: 18px;
+  }
+  
